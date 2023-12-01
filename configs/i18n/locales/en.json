@@ -1,0 +1,28 @@
+{
+	"login": {
+		"not_registered": "Email or Phone number not registered",
+		"wrong_password": "Wrong password"
+	},
+	"register": {
+		"already_registered": "Email or Phone number already registered"
+	},
+	"admin": {
+		"already_registered": "Email or Phone number already registered",
+		"not_found": "Admin not found",
+		"cannot_delete_yourself": "You cannot delete yourself",
+		"menu_already_registered": "Menu already registered",
+		"email_registration": "Here is your password to login to the application : %s"
+	},
+	"profile": {
+		"not_found": "Profile not found",
+		"old_password_wrong": "Old password is wrong",
+		"new_password_not_same": "New password and confirm password are not same",
+		"email_or_phone_exist": "Email or phone number already registered"
+	},
+	"setting": {
+		"not_found": "setting not found"
+	},
+	"general": {
+		"error_try_again": "An error occurred please try in a while again"
+	}
+}

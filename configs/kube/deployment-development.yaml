@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backoffice-api
+  labels:
+    app: backoffice-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backoffice-api
+  template:
+    metadata:
+      labels:
+        app: backoffice-api
+    spec:
+      containers:
+        - name: backoffice-api
+          image: <IMAGE>
+          ports:
+            - containerPort: 9000
+          envFrom:
+            - secretRef:
+                name: development-secret
+      imagePullSecrets:
+        - name: dockerconfigjson-github-com
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backoffice-api-service
+spec:
+  selector:
+    app: backoffice-api
+  ports:
+    - port: 80
+      targetPort: 9000

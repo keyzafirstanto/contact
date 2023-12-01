@@ -1,0 +1,32 @@
+{
+	"login": {
+		"not_registered": "Email atau Nomor hp anda belum terdaftar",
+		"wrong_password": "Password anda salah"
+	},
+	"register": {
+		"already_registered": "Email atau Nomor hp anda sudah terdaftar"
+	},
+	"admin": {
+		"already_registered": "Email atau Nomor hp anda sudah terdaftar",
+		"not_found": "Admin tidak ditemukan",
+		"cannot_delete_yourself": "Anda tidak dapat menghapus diri anda sendiri",
+		"menu_already_registered": "Menu sudah terdaftar",
+		"email_registration": "Berikut Password anda untuk login ke aplikasi : %s"
+	},
+	"profile": {
+		"not_found": "Profile tidak ditemukan",
+		"old_password_wrong": "Password lama anda salah",
+		"new_password_not_same": "Password baru dan konfirmasi password baru tidak sama",
+		"email_or_phone_exist": "Email atau Nomor hp sudah terdaftar"
+	},
+	"setting": {
+		"not_found": "Data tidak ditemukan"
+	},
+	"general": {
+		"error_try_again": "Terjadi kesalahan silahkan coba beberapa saat lagi"
+	},
+	"user": {
+		"already_registered": "user.already_registered"
+	},
+	"already_registered": "already_registered"
+}

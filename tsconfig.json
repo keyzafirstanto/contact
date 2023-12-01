@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@root": ["./app.ts"],
+      "@constants": ["./app/constants"],
+      "@controllers": ["./app/controllers"],
+      "@middlewares": ["./app/middlewares"],
+      "@models": ["./app/models"],
+      "@serializers": ["./app/serializers"],
+      "@services": ["./app/services"],
+      "@types": ["app/middlewares/types/types"],
+      "@utils": ["./app/utils"],
+      "@configs": ["./configs"],
+      "@jobs": ["./app/jobs"],
+      "@lib": ["./app/lib"]
+    }
+  },
+  "include": ["**/*", "**/*.json"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
